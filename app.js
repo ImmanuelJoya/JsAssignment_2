@@ -9,8 +9,14 @@ const runApp = () => {
     welcomeMessage("John", "Doe");
 
     // Second Function: Convert temperature
-    const fahrenheit = convertTemperature(25); // Convert 25°C to Fahrenheit
-    console.log(`25°C is equivalent to ${fahrenheit}°F`);
+    // Generate a random number between -20 and 20 (Since its winter)
+    const randomCelsius = Math.floor(Math.random() * 41) - 20;
+
+    // Convert the random Celsius value to Fahrenheit using the imported function
+    const fahrenheit = convertTemperature(randomCelsius);
+
+    // Log the result
+    console.log(`${randomCelsius}°C is equivalent to ${fahrenheit}°F`);
 
     // Third Function: Calculate area of a rectangle
     const area = calculateArea(10, 5); // Calculate area with length=10 and width=5
