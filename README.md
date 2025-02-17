@@ -1,4 +1,4 @@
-# Node.js Lab Assignment
+# Node.js Lab Assignment 2
  This repository contains a simple Node.js application that demonstrates the use of ES6+ syntax, modular code structure, and utility functions. The application consists of two JavaScript files: one as the entry point (app.js) and another as a utilities file (utils.js).
 
 ## Table of Contents
@@ -26,3 +26,12 @@
    
 Node.js : Version 14 or higher (check with node -v).
 npm : Comes bundled with Node.js (check with npm -v).
+
+### Clone this repository
+- git clone https://github.com/ImmanuelJoya/JsAssignment_2.git
+
+### Navigate to the project directory
+- cd JsAssignment_2
+
+### Install dependencies (if any)
+- npm install
