@@ -1,7 +1,7 @@
-# Node.js Lab Assignment 2
+# Node.js Lab 🚧 Assignment 2
  This repository contains a simple Node.js application that demonstrates the use of ES6+ syntax, modular code structure, and utility functions. The application consists of two JavaScript files: one as the entry point (app.js) and another as a utilities file (utils.js).
 
-## Table of Contents
+## Table of Contents 
    Overview
    Features
    Prerequisites
@@ -14,6 +14,7 @@
    This project is designed to meet the requirements of a lab assignment. It showcases:
    
 ## Modular programming using ES6+ import/export syntax.
+
    Four utility functions performing different tasks (e.g., printing messages, converting units, calculating values, and generating random passwords).
    Modern JavaScript features like arrow functions, template literals, and Array.from.
    Features
