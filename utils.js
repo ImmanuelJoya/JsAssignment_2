@@ -9,14 +9,20 @@ export const convertTemperature = (celsius) => {
     return fahrenheit;
 };
 
-// Third Function: Calculate Area of a Rectangle
-export const calculateArea = (length, width) => {
-    return length * width;
-};
+export const generateRandomEmail = (length) =>{
+    let email = '';
+    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    for (let i = 0; i< length; i++){
+        const randomIndex = Math.floor(Math.random() * characters.length )
+        email += characters[randomIndex];
+        
+    }
+    return email;
+}
 
 // Fourth Function: Generate Random Password
 export const generateRandomPassword = (length) => {
-    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()';
+    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%&*()';
     let password = '';
     for (let i = 0; i < length; i++) {
         const randomIndex = Math.floor(Math.random() * chars.length);

@@ -1,5 +1,5 @@
 // Importing utility functions using ES6 module syntax
-import { calculateArea, convertTemperature, generateRandomPassword, welcomeMessage } from './utils.js';
+import { convertTemperature, generateRandomEmail, generateRandomPassword, welcomeMessage } from './utils.js';
 
 // Main function to run the application
 const runApp = () => {
@@ -18,13 +18,14 @@ const runApp = () => {
     // Log the result
     console.log(`${randomCelsius}°C is equivalent to ${fahrenheit}°F`);
 
-    // Third Function: Calculate area of a rectangle
-    const area = calculateArea(10, 5); // Calculate area with length=10 and width=5
-    console.log(`The area of the rectangle is ${area}`);
+    const email = generateRandomEmail(12);
+    console.log(`Generated Email: ${email}@gmail.com`);
 
     // Fourth Function: Generate a random password
     const password = generateRandomPassword(12); // Generate a 12-character password
     console.log(`Generated Password: ${password}`);
+
+    console.log("=========================");
 };
 
 // Run the application
